@@ -4,7 +4,7 @@
     id        = "com.mdinteractivo.AirTests"
     version   = "1">
 
-<name>2 Test windows Phone</name>
+<name>Test windows Phone (2)</name>
  
 <preference name="phonegap-version" value="2.9.0" />
 <preference name="target-device" value="handset" />
