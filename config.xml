@@ -29,5 +29,8 @@
 
 <gap:splash src="img/splash/splash.png" gap:platform="winphone" />
 
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+
 
 </widget>
