@@ -27,6 +27,7 @@
 <icon src="img/iconos/ios/icono_57x57.png" gap:platform="winphone" />
 <icon src="img/iconos/ios/icono_144x144.png" gap:platform="winphone" gap:role="background" />
 
+<gap:splash src="img/splash/splash.png" gap:platform="winphone" />
 
 
 </widget>
