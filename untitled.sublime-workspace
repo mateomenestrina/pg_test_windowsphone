@@ -1,0 +1,334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"recet",
+				"recetas"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"setTim",
+				"setTimeout	jsWindow"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"wi",
+				"width	jsScreen"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bi",
+				"bind()	jQuery"
+			],
+			[
+				"atr",
+				"attr()	jQuery"
+			],
+			[
+				"att",
+				"attr()	jQuery"
+			],
+			[
+				"add",
+				"addClass()	jQuery"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 284.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mateo/Documents/www/rockinrio20013/public/backend/_css/backend.css",
+		"/Users/mateo/Documents/www/rockinrio20013/public/backend/Usuarios-xls.php",
+		"/Users/mateo/Documents/www/rockinrio20013/public/backend/Usuarios.php",
+		"/Users/mateo/Documents/www/rockinrio20013/public/backend/download.php",
+		"/Users/mateo/Documents/www/rockinrio20013/public/backend/login_send.php",
+		"/Users/mateo/Documents/www/phpMyAdmin/config.inc.php",
+		"/private/etc/hosts",
+		"/Volumes/www/preguntamepr/delphos/_templates/EncuestasEditor.php",
+		"/Volumes/www/preguntamepr/delphos/_templates/Editor/PreguntaOpciones.php",
+		"/Volumes/www/preguntamepr/delphos/_process/EncuestaEditor.php",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.envios.php",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.exportar_encuesta.php",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.delphos.php",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.repositorio.php",
+		"/Volumes/www/preguntamepr/delphos/_init.php",
+		"/Volumes/www/preguntamepr/delphos/_js/Encuesta.js",
+		"/Volumes/www/preguntamepr/delphos/_js/AjaxForms.js",
+		"/Volumes/www/preguntamepr/delphos/_js/EncuestaUtils.js",
+		"/Volumes/www/preguntamepr/delphos/preguntame_logo.jpg",
+		"/Applications/UT/q3ut4/q3config.cfg",
+		"/Users/mateo/Desktop/UrbanTerror42/q3ut4/autoexec.cfg",
+		"/Applications/UT/q3ut4/autoexec.cfg",
+		"/Volumes/www/preguntamepr/delphos/_templates/EncuestasPropiedades.php",
+		"/Volumes/www/preguntamepr/delphos/.htaccess",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.editor.php",
+		"/Volumes/www/preguntamepr/delphos/_clases/class.analytics.db.php",
+		"/Volumes/www/knorrrecetas/public/rtu.php",
+		"/Volumes/www/knorrrecetas/public/init.php",
+		"/Volumes/www/knorrrecetas/public/index.php",
+		"/Volumes/www/knorrrecetas/public/js/site.js",
+		"/Volumes/www/knorrrecetas/public/js/Boton.js",
+		"/Volumes/www/knorrrecetas/public/css/estilos.css",
+		"/Volumes/www/ford_autoremedio/public/.htaccess",
+		"/Volumes/www/recompensaverde.com/public/mobile/index.php",
+		"/Volumes/www/recompensaverde.com/public/mobile/init.php",
+		"/Volumes/www/knorrrecetas/public/ogCrashCourseVideo.php",
+		"/Volumes/www/knorrrecetas/public/download.php",
+		"/Volumes/www/knorrrecetas/public/img/show.php",
+		"/Volumes/www/ford_autoremedio/public/mobile/index.php",
+		"/Volumes/www/micombinacion.com/public/downloadPDF.php",
+		"/Volumes/www/testffmpeg/test.php",
+		"/Volumes/www/ford_autoremedio/public/ogCrashCourseVideo.php",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashMain.js",
+		"/Volumes/www/ford_autoremedio/public/objVideoJibJab.php",
+		"/Volumes/www/ford_autoremedio/public/js/utils/LigthBoxVideo.js",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashPaso4.js",
+		"/Volumes/www/ford_autoremedio/public/css/crash_course.css",
+		"/Volumes/www/ford_autoremedio/public/css/general.css",
+		"/Volumes/www/ford_autoremedio/public/index.php",
+		"/Volumes/www/testffmpeg/procesos",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashPaso3.js",
+		"/Volumes/www/ford_autoremedio/public/php/save_audio.php",
+		"/Users/mateo/Documents/extraigo el audio ya con la modulacion",
+		"/Volumes/www/ford_autoremedio/public/php/TMP.script_para_modular_audio_mp3.txt",
+		"/Volumes/www/ford_autoremedio/public/php/home.php",
+		"/Volumes/www/ford_autoremedio/public/sitemap.php",
+		"/Volumes/www/ford_autoremedio/public/php/crash_course.php",
+		"/Volumes/www/ford_autoremedio/public/js/fess_up/FessUpCrearFoto.js",
+		"/Volumes/www/ford_autoremedio/public/js/utils/DataSite.js",
+		"/Volumes/www/ford_autoremedio/public/php/ajax.guardar_crash.php",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashRadioBoton.js",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashBoton.js",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashPaso2.js",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashPaso1.js",
+		"/Volumes/www/vidaenbalancemobile/public/config.xml",
+		"/Volumes/www/ford_autoremedio/public/init.php",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashGaleria.js",
+		"/Volumes/www/ford_autoremedio/public/css/home.css",
+		"/Volumes/www/ford_autoremedio/public/css/remedios.css",
+		"/Volumes/www/ford_autoremedio/public/img/crash_course/assets/bg",
+		"/Users/mateo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/CrashGaleria",
+		"/Volumes/www/ford_autoremedio/public/js/crash_course/untitled",
+		"/Volumes/www/ford_autoremedio/public/php/share.php",
+		"/Volumes/www/ford_autoremedio/public/php/jibjab",
+		"/Volumes/www/ford_autoremedio/public/php/servicio.php",
+		"/Users/mateo/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/www-3/cocacola/app/app.plist",
+		"/Volumes/www/mod.php",
+		"/Users/mateo/Documents/Adobe Flash Builder 4.7/coca/src/Assets.as",
+		"/Users/mateo/Documents/Adobe Flash Builder 4.7/coca/src/Animacion.as"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DocumentRoot",
+			"Include",
+			"radio",
+			"preguntaSetAttribute",
+			"radio",
+			"resolveCheckedresolveChecked",
+			"El usuario tiene una tabla con filas como",
+			"$_GET",
+			"guardarPHPEncuesta",
+			"_(",
+			"function _(id)\n\n	{\n\n		return document.getElementById(id);\n\n	}",
+			"sendPostRequest",
+			"guardarEncuesta",
+			"respondiendo_process",
+			"txt_se_acabo",
+			"index",
+			"btn_share_receta",
+			", ",
+			"mostrar_video_en_ligthbox",
+			"SITE_URL",
+			"doCLickPlayPreview",
+			"999",
+			"9",
+			"CrashMain_p2_btn_play_preview1",
+			"CrashMain_p2_btn_siguiente",
+			"length",
+			"{\n",
+			"doCLickComienza",
+			"this.main.append($('<div/>').attr(\"id\", 'CrashMain_slide_hodler'))",
+			"this",
+			"var",
+			"\")\n",
+			"		",
+			"	\n",
+			"(){\n",
+			"function",
+			"open"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 372.0,
+	"status_bar_visible": true
+}
