@@ -34,9 +34,25 @@ var app = {
     onDeviceReady: function() {
 
         this.receivedEvent('deviceready');
-        
+  
+        setInterval(function(){
+             navigator.accelerometer.getCurrentAcceleration(app.onSuccess, app.onError);
+        }, 1000)
+       
+
     },
     
+    onSuccess: function (acceleration) {
+        $('#acel').html('Acceleration X: ' + acceleration.x + '\n' +
+              'Acceleration Y: ' + acceleration.y + '\n' +
+              'Acceleration Z: ' + acceleration.z + '\n' +
+              'Timestamp: '      + acceleration.timestamp + '\n')
+    },
+
+   onError: function () {
+        alert('onError!');
+    },
+
     receivedEvent: function(id) {
         
     
