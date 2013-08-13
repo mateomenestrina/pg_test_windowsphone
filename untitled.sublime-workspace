@@ -83,6 +83,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 1550,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\n * Licensed to the Apache Software Foundation (ASF) under one\n * or more contributor license agreements.  See the NOTICE file\n * distributed with this work for additional information\n * regarding copyright ownership.  The ASF licenses this file\n * to you under the Apache License, Version 2.0 (the\n * \"License\"); you may not use this file except in compliance\n * with the License.  You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANaTIES OR CONDaITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License.\n */\nvar app = {\n    \n    \n\n    // Application Constructor\n    initialize: function() {\n        \n        this.bindEvents();\n    },\n  \n    bindEvents: function() {\n        document.addEventListener('deviceready', this.onDeviceReady, false);\n    },\n    \n\n    onDeviceReady: function() {\n\n        this.receivedEvent('deviceready');\n  \n             navigator.accelerometer.getCurrentAcceleration(app.onSuccess, app.onError);\n\n   \n\n    },\n    \n    onSuccess: function (acceleration) {\n        $('#acel').html('Acceleration X: ' + acceleration.x + '\\n' +\n              'Acceleration Y: ' + acceleration.y + '\\n' +\n              'Acceleration Z: ' + acceleration.z + '\\n' +\n              'Timestamp: '      + acceleration.timestamp + '\\n')\n    },\n\n   onError: function () {\n        alert('onError!');\n    },\n\n    receivedEvent: function(id) {\n        \n    \n    \n    },\n    \n    camera_getPicture: function(){\n        navigator.camera.getPicture( app.onSuccess, app.onFail, { quality: 100, sourceType:Camera.PictureSourceType.PHOTOLIBRARY,  destinationType: Camera.DestinationType.DATA_URL});\n\n    },\n\n    \n    onSuccess: function (imageData) {\n        var image = document.getElementById('myImageCamera');\n            image.src = \"data:image/jpeg;base64,\" + imageData;\n            image.width = 100\n            image.height = 100\n    },\n    \n    onFail: function(message) {\n      alert('Failed because: ' + message);\n    }\n    \n    \n    \n};\n",
+			"file": "js/index.js",
+			"file_size": 2235,
+			"file_write_time": 1376078652000000,
+			"settings":
+			{
+				"buffer_size": 2237,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -116,9 +143,19 @@
 	},
 	"file_history":
 	[
-		"/Users/mateo/Documents/www/pg_test_windowsphone/config.xml",
-		"/Users/mateo/Documents/www/pg_test_windowsphone/index.html",
+		"/Users/mateo/Documents/www/pg_test_windowsphone/untitled.sublime-project",
+		"/Users/mateo/Desktop/routers/Linksys WRT54GH",
 		"/Users/mateo/Documents/www/pg_test_windowsphone/js/index.js",
+		"/Users/mateo/Documents/www/pg_test_windowsphone/css/index.css",
+		"/Users/mateo/Documents/www/pg_test_windowsphone/index.html",
+		"/Applications/Urban Terror/qkey",
+		"/Applications/Urban Terror/q3ut4/q3config.cfg",
+		"/Applications/Urban Terror/q3ut4/server.cfg",
+		"/Applications/Urban Terror/q3ut4/autoexec.cfg",
+		"/Users/mateo/Documents/UT4.2/q3ut4/autoexec_example.cfg",
+		"/Applications/Urban Terror/ioUrbanTerror_Logitech_Game_Recognition.reg",
+		"/Users/mateo/Documents/www/pg_test_windowsphone/config.xml",
+		"/Users/mateo/Documents/www/pg_test_windowsphone/css/index",
 		"/Volumes/www/vidaenbalancemobile/public/config.xml",
 		"/Users/mateo/Documents/www/rockinrio20013/public/backend/_css/backend.css",
 		"/Users/mateo/Documents/www/rockinrio20013/public/backend/Usuarios-xls.php",
@@ -271,8 +308,91 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.xml",
+					"settings":
+					{
+						"buffer_size": 1550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/index.js",
+					"settings":
+					{
+						"buffer_size": 2237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								829,
+								829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 94.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
